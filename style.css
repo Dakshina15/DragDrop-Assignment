@@ -1,0 +1,173 @@
+body {
+  background-color: floralwhite;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 1rem;
+}
+
+.container {
+  padding: 5px;
+  margin: 5px;
+  display: block;
+}
+
+
+/* .container {
+    background-color: #efefef;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+  } */
+
+.add-card1 {
+  margin: 10px;
+  height: 30px;
+  border: 2px;
+  border-radius: 2px;
+  background-color: rgb(39, 139, 233);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.add-btn1:hover {
+  background-color: black;
+}
+
+.card1 {
+  width: 80%;
+  height: 40px;
+  background-color: rgb(235, 99, 99);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+
+
+.delete1 {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+.add-card2 {
+  margin: 10px;
+  height: 30px;
+  border: 2px;
+  border-radius: 2px;
+  background-color: rgb(39, 139, 233);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.add-btn2:hover {
+  background-color: black;
+}
+
+.card2 {
+  width: 80%;
+  height: 40px;
+  background-color: rgb(79, 154, 240);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+
+
+.delete2 {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+
+.add-card3 {
+  margin: 10px;
+  height: 30px;
+  border: 2px;
+  border-radius: 2px;
+  background-color: rgb(39, 139, 233);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.add-btn3:hover {
+  background-color: black;
+}
+
+.card3 {
+  width: 80%;
+  height: 40px;
+  background-color: rgb(80, 187, 80);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+
+
+.delete3 {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+.add-card4 {
+  margin: 10px;
+  height: 30px;
+  border: 2px;
+  border-radius: 2px;
+  background-color: rgb(39, 139, 233);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.add-btn4:hover {
+  background-color: black;
+}
+
+.card4 {
+  width: 80%;
+  height: 40px;
+  background-color: rgb(173, 179, 173);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+}
+
+
+.delete4 {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
